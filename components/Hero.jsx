@@ -5,7 +5,10 @@ import { FaBirthdayCake } from "react-icons/fa";
 import { LuPartyPopper } from "react-icons/lu";
 const Hero = () => {
   return (
-    <section className="w-full h-screen px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
+    <section
+      className="w-full h-screen px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto"
+      transition-style="in:circle:hesitate"
+    >
       <div>
         <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium">
           Better every day
